@@ -13,6 +13,7 @@ brew tap vybestack/tap
 | Formula | Description | Install |
 |---------|-------------|---------|
 | `llxprt-code` | AI-powered coding assistant CLI | `brew install vybestack/tap/llxprt-code` |
+| `jefe` | Terminal app for managing llxprt coding agents | `brew install vybestack/tap/jefe` |
 
 After tapping, you can also simply run:
 
@@ -25,4 +26,5 @@ brew install llxprt-code
 ```bash
 brew update
 brew upgrade llxprt-code
+brew upgrade jefe
 ```
