@@ -1,26 +1,26 @@
 class Jefe < Formula
   desc "Terminal application for managing multiple llxprt coding agents"
   homepage "https://github.com/vybestack/llxprt-jefe"
-  version "0.0.15"
+  version "0.0.16"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/vybestack/llxprt-jefe/releases/download/v0.0.15/jefe-v0.0.15-aarch64-apple-darwin.tar.gz"
-      sha256 "ff714cc39a30ecf4ad0b6633e4eca3bee88ff276ecc03c52fe1097450c2bbbb2"
+      url "https://github.com/vybestack/llxprt-jefe/releases/download/v0.0.16/jefe-v0.0.16-aarch64-apple-darwin.tar.gz"
+      sha256 "ada216bd7e995346079f2bd789b8af70fef607d83ed1b02ae6b14d10baa1aef0"
     else
-      url "https://github.com/vybestack/llxprt-jefe/releases/download/v0.0.15/jefe-v0.0.15-x86_64-apple-darwin.tar.gz"
-      sha256 "a9fe67e7a79ec11f1c30518ac4a71c4b71abfd55915cfca1212397c72a053fbf"
+      url "https://github.com/vybestack/llxprt-jefe/releases/download/v0.0.16/jefe-v0.0.16-x86_64-apple-darwin.tar.gz"
+      sha256 "5c6aae36d3088dd49ad6e0e5c88db096f30780adc5805226e45e99e45565f365"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/vybestack/llxprt-jefe/releases/download/v0.0.15/jefe-v0.0.15-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "220d1f551f8f21463578662e90d76bd7a0ef8cdff096728a33333929a30cfc75"
+      url "https://github.com/vybestack/llxprt-jefe/releases/download/v0.0.16/jefe-v0.0.16-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "3d226951a4f53de9c6f90ea7d3b872ed5280ae1fcec30794f3fbe8ad0341a463"
     else
-      url "https://github.com/vybestack/llxprt-jefe/releases/download/v0.0.15/jefe-v0.0.15-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "7ef41f00cdf4a3d231f1ad17ca08b3029ca37a396ef088d80e13b31fefef7626"
+      url "https://github.com/vybestack/llxprt-jefe/releases/download/v0.0.16/jefe-v0.0.16-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "378cc41ef8d85443027da9e9d57b6f76eec31a49df337e808f81faafd9a2c9fd"
     end
   end
 
