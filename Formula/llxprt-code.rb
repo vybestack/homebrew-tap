@@ -1,8 +1,8 @@
 class LlxprtCode < Formula
   desc "AI-powered coding assistant CLI"
   homepage "https://github.com/vybestack/llxprt-code"
-  url "https://registry.npmjs.org/@vybestack/llxprt-code/-/llxprt-code-0.9.1.tgz"
-  sha256 "5ed6cdd86f17a41c67f6b26ee18d3b21073d4da3868366bd2dc69cf0db678073"
+  url "https://registry.npmjs.org/@vybestack/llxprt-code/-/llxprt-code-0.9.2.tgz"
+  sha256 "1d2d5bb90b73ca7de1167fc9b897d6b0ab89c8fedeff93bf289e985349dad078"
   license "Apache-2.0"
 
   depends_on "node"
